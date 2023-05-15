@@ -604,6 +604,16 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.container-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 @media (min-width: 576px) {
   .container, .container-sm {
@@ -1907,9 +1917,9 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #b8e087;
+  border-color:  #f3924a ;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(122, 183, 48, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(243, 146, 74 );
 }
 
 .form-control::placeholder {
@@ -2369,17 +2379,23 @@ fieldset:disabled a.btn {
   border-color: #FC7B26;
 }
 
+.btn-primary-registro {
+  color: #FC7B26;
+  background-color: #fff;
+  border-color: #FC7B26;
+}
+
 .btn-primary:hover {
   color: #fff;
-  background-color: #669928;
-  border-color: #5f8f25;
+  background-color:  #F3924A;
+  border-color:  #F3924A ;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #669928;
-  border-color: #5f8f25;
-  box-shadow: 0 0 0 0.2rem rgba(142, 194, 79, 0.5);
+  background-color:  #F3924A;
+  border-color:  #F3924A;
+  box-shadow: 0 0 0 0.2rem rgba( 243, 146, 74 );
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
