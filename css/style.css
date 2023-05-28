@@ -9283,6 +9283,10 @@ button.bg-dark:focus {
   color: #FC7B26 !important;
 }
 
+.text-sidebar {
+  color: #fff !important;
+}
+
 a.text-primary:hover, a.text-primary:focus {
   color: #FC7B26 !important;
 }
@@ -9784,3 +9788,52 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+.wrapper .sidebar{
+  background: #FC7B26;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 225px;
+  height: 100%;
+  padding: 20px 0;
+  transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profile{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.wrapper .sidebar .profile img{
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h3{
+  color: #ffffff;
+  margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p{
+  color: rgb(206, 240, 253);
+  font-size: 14px;
+}
+
+.wrapper .sidebar ul li a{
+  display: block;
+  padding: 13px 30px;
+  color: rgb(241, 237, 237);
+  font-size: 16px;
+  position: relative;
+}
+
+.wrapper .sidebar ul li a .icon{
+  color: #dee4ec;
+  width: 30px;
+  display: inline-block;
+}
+
