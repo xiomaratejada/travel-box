@@ -1,4 +1,4 @@
-  =>  Template Name    : TRAVELER - Free Travel Website Template
+  =>  Template Name    : TRAVELBOX
 
   =>  Template Link    : https://htmlcodex.com/free-travel-website-template
 
