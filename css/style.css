@@ -9837,3 +9837,12 @@ h6,
   display: inline-block;
 }
 
+.primary-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary-container{
+
+}
