@@ -1,3 +1,9 @@
+window.onload = init
+
+function init(){
+    
+}
+
 (function ($) {
     "use strict";
     
